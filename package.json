@@ -1,0 +1,37 @@
+{
+  "name": "v-tree-cli",
+  "version": "1.0.0",
+  "description": "Print the V-Tree Fractal to the console!",
+  "main": "./src/index.js",
+  "bin": {
+    "v-tree-cli": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirometaxas/v-tree-cli.git"
+  },
+  "homepage": "https://spirometaxas.com/projects/fractals-cli",
+  "scripts": {
+    "cli": "node ./src/cli.js"
+  },
+  "author": {
+    "name" : "Spiro Metaxas",
+    "url" : "https://spirometaxas.com"
+  },
+  "license": "MIT", 
+  "keywords": [ 
+    "V-Tree", 
+    "V-Tree Fractal",
+    "fractal",
+    "fractals", 
+    "v-tree-cli", 
+    "cli",
+    "console",
+    "terminal",
+    "shell",
+    "unicode" 
+  ]
+}
