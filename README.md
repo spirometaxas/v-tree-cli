@@ -27,8 +27,8 @@ const v_tree = require('v-tree-cli');
 console.log(v_tree.create(<n>);
 console.log(v_tree.create(<n>, { 
     size: <number>, 
-    rotate: <left|right|standard>,
-    line: <bold|standard> 
+    rotate: <left|right|flip|standard>,
+    line: <bold|double|standard> 
 }));
 ```
 The config params are optional. 
