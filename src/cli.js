@@ -9,10 +9,10 @@ const printUsage = function(showIntro) {
     console.log('\n' + 
                 ' Usage:\n' + 
                 '   $ v-tree-cli <n>\n' + 
-                '   $ v-tree-cli <n> <size>\n' + 
+                '   $ v-tree-cli <n> [size] [options]\n' + 
                 '\n' + 
                 '   <n> is the recursive step, a number greater than or equal to 0\n' + 
-                '   <size> is the size to draw, a number greater than or equal to <n>\n' + 
+                '   [size] is the size to draw, a number greater than or equal to <n>\n' + 
                 '\n' +
                 ' Options:\n' + 
                 '   --line=<line>      Draw using a specific line type: [bold|double|standard]\n' +
